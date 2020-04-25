@@ -1,0 +1,76 @@
+/********************************************
+ GENERAL
+ #575858
+ #4a90e2
+ #EBF6FC
+********************************************/
+body {
+    color: #575858;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+#top {
+    height: 4rem;
+}
+.content {
+    padding: 2rem 8.25rem;
+}
+button.btn {
+    background-image: linear-gradient(180deg, #F1C401, #F8A609);
+    box-shadow: 0 7px 6px -1px #0e2d9222;
+    color: #ffffff;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+h2, h4, h6 {
+    font-family: 'Oswald', 'Arial', sans-serif;
+}
+h2 {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    color: #4a90e2;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+h6 { 
+    font-size: 1rem; 
+}
+hr {
+    border: none;
+    border-bottom: 2px solid #575858;
+    margin: 1.5rem auto;
+}
+.title {
+    align-items: center;
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+}
+
+/********************************************
+ FOOTER
+********************************************/
+footer {
+    align-items: center;
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    height: 2.5rem;
+    justify-content: space-between;
+    padding: 0 8.25rem;
+}
+.copyright {
+    font-size: 0.75rem;
+}
+footer a {
+    color: #ffffff;
+}
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
