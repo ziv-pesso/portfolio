@@ -115,6 +115,55 @@ header {
 }
 
 /********************************************
+ ABOUT
+********************************************/
+.about-me {
+    background-color: #EBF6FC;
+    display: flex;
+    justify-content: center;
+}
+.profile-pic {
+    align-self: center;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    height: 18rem;
+    width: 18rem;
+}
+.about-text {
+    padding: 0 2.5rem;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.cv-btn {
+    border-radius: 34px;
+    font-size: 1.5rem;
+    min-width: 12rem;
+    padding: 0.5rem 1rem;
+    width: 12rem;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30%;
+}
+.skill-icon {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+.skill-text {
+    padding: 1rem 0;
+}
+
+/********************************************
  FOOTER
 ********************************************/
 footer {
