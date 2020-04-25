@@ -77,6 +77,44 @@ nav a:hover {
 }
 
 /********************************************
+ HEADER / WELCOME
+********************************************/
+header {
+    align-items: center;
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    height: 13rem;
+    justify-content: center;
+    /* margin-top: 4rem; */
+    padding: 4rem 4rem;
+}
+.welcome {
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 7rem;
+    margin-right: 56px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.welcome-text {
+    border-left: 4px solid #ffffff;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    padding-left: 56px;
+}
+.illustration {
+    background-color: #EBF6FC;
+    height: 36rem;
+}
+.scroll {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    justify-content: center;
+}
+
+/********************************************
  FOOTER
 ********************************************/
 footer {
