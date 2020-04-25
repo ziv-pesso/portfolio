@@ -164,6 +164,18 @@ header {
 }
 
 /********************************************
+ PORTFOLIO
+********************************************/
+.project {
+    background-color: #EBF6FC;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px #0e2d9222;
+    height: 384px;
+    margin: 0.5rem 0;
+}
+
+/********************************************
  FOOTER
 ********************************************/
 footer {
