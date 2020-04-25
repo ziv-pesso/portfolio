@@ -256,19 +256,19 @@ header {
 }
 .pip.previous,
     .pip.next {
-        background: rgb(200, 231, 255);
-        transform: scale(0.6);
-        -webkit-transform: scale(.6);
+        /* transform: scale(0.6);
+        -webkit-transform: scale(.6); */
 }
 .pip.current {
-    background: #fff;
+    background: #4a90e2;
+    border: 1px solid #4a90e2;
     cursor: default;
-    transform: scale(0.7);
-    -webkit-transform: scale(.7);
+    /* transform: scale(0.7);
+    -webkit-transform: scale(.7); */
 }
 .pip:not(.current):hover {
-    transform: scale(1);
-    -webkit-transform: scale(1);
+    /* transform: scale(1);
+    -webkit-transform: scale(1); */
 }
 /* PIPS */
 .carousel-pips {
@@ -284,8 +284,8 @@ header {
     width: 100%;
 }
 .pip {
-    background: #7CC5FE;
-    border: 2px solid #7CC5FE;
+    background: #EBF6FC;
+    border: 1px solid #4a90e2;
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;

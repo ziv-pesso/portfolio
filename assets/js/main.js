@@ -24,6 +24,7 @@ $(document).ready(function () {
     // generate pips
     generatePips();
     setLeftClass();
+    showNextQuote();
 
     // play carousel
     // let carouselRunning = true;
