@@ -176,6 +176,32 @@ header {
 }
 
 /********************************************
+ TESTIMONIALS
+********************************************/
+
+/********************************************
+ CONTACT
+********************************************/
+.contact {
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-btn {
+    align-items: center;
+    align-self: center;
+    border-radius: 50px;
+    font-size: 2.5rem;
+    min-width: 21.5rem;
+    padding: 1rem;
+    width: 21.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/********************************************
  FOOTER
 ********************************************/
 footer {
@@ -196,4 +222,20 @@ footer a {
 footer a:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+/********************************************
+ MEDIA QUERIES
+********************************************/
+@media screen and (max-width: 992px) {
+    .welcome,
+        .welcome-text {
+            text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+
 }
