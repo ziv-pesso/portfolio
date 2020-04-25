@@ -225,11 +225,13 @@ header {
 }
 .referee {
     align-self: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem;
     text-align: center;
 }
-.light-grey {
+.job-title {
     color: #57585850;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 600;
 }
 /* STATES */
 .quote.previous {
