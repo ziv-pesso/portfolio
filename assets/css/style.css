@@ -53,6 +53,30 @@ hr {
 }
 
 /********************************************
+ NAVIGATION
+********************************************/
+nav {
+    background-color: #fafafa;
+    box-shadow: 0 2px 2px 0 #1c234c37;
+    height: 4rem;
+}
+.navbar-brand {
+    margin-left: 2rem;
+}
+.logo {
+    height: 3rem;
+}
+nav a {
+    color: #575858;
+}
+nav a:hover {
+    color: #4a90e2;
+}
+.nav-item {
+    margin-right: 2rem;
+}
+
+/********************************************
  FOOTER
 ********************************************/
 footer {
