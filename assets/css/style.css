@@ -153,12 +153,11 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .skill {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     width: 30%;
 }
 .skill-icon {
@@ -313,11 +312,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 570px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 .contact-btn {
     align-items: center;
