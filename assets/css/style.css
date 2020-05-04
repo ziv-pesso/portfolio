@@ -15,7 +15,8 @@ body {
     padding: 2rem 8.25rem;
 }
 button.btn {
-    background-image: linear-gradient(180deg, #F1C401, #F8A609);
+    background-image: linear-gradient(180deg, #ff755a, #ff595a);
+    /* background-image: linear-gradient(180deg, #F1C401, #F8A609); */
     box-shadow: 0 7px 6px -1px #0e2d9222;
     color: #ffffff;
     font-family: 'Oswald', 'Arial', sans-serif;
