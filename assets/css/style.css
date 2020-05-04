@@ -103,14 +103,14 @@ header {
     padding-left: 56px;
 }
 .illustration {
-    background-image: url("../backgrounds/landing_page_art.png");
+    /* background-image: url("../backgrounds/landing_page_art.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
+    height: 40rem; */
 }
 .illustration-image {
-    height: 30rem;
+    width: 100%;
 }
 .scroll {
     align-items: center;
@@ -307,16 +307,25 @@ header {
 /********************************************
  CONTACT
 ********************************************/
-.contact {
-    background-image: url("../backgrounds/contact_banner.png");
+#contact {
+    /* background-image: url("../backgrounds/contact_banner.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 570px;
-    color: #ffffff;
+    background-size: contain;
+    width: 100%; */
+    display: grid;
+}
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+}
+.illustration-contact, .contact {
+    grid-column: 1;
+    grid-row: 1;
+}
+.illustration-contact {
     width: 100%;
 }
 .contact-btn {
@@ -342,6 +351,8 @@ footer {
     height: 2.5rem;
     justify-content: space-between;
     padding: 0 8.25rem;
+    width: 100%;
+    z-index: 3;
 }
 .copyright {
     font-size: 0.75rem;
