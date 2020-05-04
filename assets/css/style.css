@@ -103,8 +103,14 @@ header {
     padding-left: 56px;
 }
 .illustration {
-    background-color: #EBF6FC;
-    height: 36rem;
+    background-image: url("../backgrounds/landing_page_art.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+.illustration-image {
+    height: 30rem;
 }
 .scroll {
     align-items: center;
@@ -303,7 +309,11 @@ header {
  CONTACT
 ********************************************/
 .contact {
-    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    background-image: url("../backgrounds/contact_banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
