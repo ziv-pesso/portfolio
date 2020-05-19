@@ -109,20 +109,30 @@ header {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    padding: 0.5rem 0;
+    padding: 1.5rem 0;
 }
 .welcome {
     font-family: 'Oswald', 'Arial', sans-serif;
     font-size: 7rem;
+    line-height: 7rem;
     margin-right: 56px;
     text-align: right;
     text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.divider {
+    background-color: #ffffff;
+    height: 7rem;
+    width: 4px;
 }
 .welcome-text {
-    border-left: 4px solid #ffffff;
     font-size: 1.75rem;
     line-height: 2.25rem;
     padding-left: 56px;
+    margin: 0;
+}
+.inside-text {
+    display: block;
 }
 .illustration {
     display: flex;

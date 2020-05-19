@@ -103,6 +103,9 @@ header {
     line-height: 1.25rem;
     text-align: center;
 }
+.divide-text {
+    display: block;
+}
 .illustration {
     margin: 0.75rem 0.75rem 0.25rem;
 }
