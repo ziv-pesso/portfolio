@@ -77,8 +77,18 @@ nav a {
 nav a:hover {
     color: #4a90e2;
 }
+.nav-link {
+    height: 4rem;
+    line-height: 3rem;
+}
 .nav-item {
     margin-right: 2rem;
+}
+.active {
+    color: #4a90e2;
+    font-weight: bold;
+    border-bottom: 5px solid #4a90e2;
+    transition: 0.3s ease;
 }
 
 /********************************************
@@ -332,6 +342,10 @@ header {
 .slick-dots li.slick-active button::before {
     color: #4a90e2;
     font-size: 2rem;
+}
+
+.testimonials-one, .testimonials-three {
+    display: none;
 }
 
 /********************************************
