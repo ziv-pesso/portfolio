@@ -167,8 +167,36 @@ header {
     display: none;
 }
 
-.testimonials-one, .testimonials-two, .testimonials-three {
+.testimonials-three {
     display: none;
+}
+
+.carousel-item {
+    height: 32.5rem;
+}
+
+.quote-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-img {
+    align-self: center;
+    background-size: 100%;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.referee {
+    align-self: center;
+    padding: 1rem 1rem 0.5rem;
+    text-align: center;
+}
+.job-title {
+    color: #57585850;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 600;
 }
 
 /********************************************
