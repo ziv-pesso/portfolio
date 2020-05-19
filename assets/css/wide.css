@@ -67,9 +67,18 @@ nav {
 }
 .navbar-brand {
     margin-left: 2rem;
+    margin-right: 0;
 }
 .logo {
-    height: 3rem;
+    height: 2.5rem;
+    border-right: 3px solid #5d9deb;
+    padding-right: 2rem;
+}
+.social-icons {
+    padding-left: 2rem;
+}
+.social-icon {
+    margin: 0 9px;
 }
 nav a {
     color: #575858;
@@ -180,6 +189,10 @@ header {
 .skill-icon {
     align-self: center;
     margin-bottom: 1rem;
+}
+.skill-image {
+    height: 140px;
+    width: 140px;
 }
 .skill-text {
     padding: 1rem 0;

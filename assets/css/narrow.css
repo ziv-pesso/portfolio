@@ -58,6 +58,10 @@ nav {
 .logo {
     height: 2.25rem;
 }
+.social-icon {
+    height: 1.7rem;
+    margin: 0 5px;
+}
 nav a {
     color: #575858;
 }
