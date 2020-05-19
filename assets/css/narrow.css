@@ -64,6 +64,16 @@ nav a {
 nav a:hover {
     color: #4a90e2;
 }
+.navbar-toggler {
+    padding: 0;
+}
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a90e2;
+    font-size: 1.8rem;
+}
 
 /********************************************
  HEADER / WELCOME
