@@ -6,36 +6,54 @@
 
     <title>Ziv Pesso | UI Artist Portfolio</title>
 
-    <!-- STYLESHEETS, FONTS -->
+    <!-- FONTS, BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="assets/css/narrow.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="assets/css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="assets/css/wide.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 </head>
 <body>
     <div id="top"></div>
     <div class="wrapper">
     <!-- NAVIGATION -->
     <nav class="navbar fixed-top navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">
-          <img class="logo" src="assets/icons/logo.svg" alt="Ziv Pesso Logo">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="assets/icons/logo.svg" alt="Ziv Pesso Logo" />
+      </a>
+      <div class="social-icons">
+        <a href="#">
+          <img class="social-icon" src="assets/icons/icon_social_LinkedIn.svg" alt="LinkedIn" />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a href="#">
+          <img class="social-icon" src="assets/icons/icon_social_Insta.svg" alt="Instagram" />
+        </a>
+        <a href="mailto:zivpesso@gmail.com">
+          <img class="social-icon" src="assets/icons/icon_social_Mail.svg" alt="Email" />
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#portfolio">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="main-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- MAIN CONTENT -->
@@ -67,14 +85,16 @@
               <button class="btn cv-btn">Download CV</button>
             </div>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor. Sollicitudin nibh sit amet commodo nulla. Velit sed ullamcorper morbi tincidunt ornare. Massa enim nec dui nunc mattis. Ut porttitor leo a diam sollicitudin tempor id eu. Tellus id interdum velit laoreet id donec ultrices tincidunt. Nulla facilisi cras fermentum odio. Auctor eu augue ut lectus arcu bibendum at varius. Diam sollicitudin tempor id eu nisl nunc mi. Tortor consequat id porta nibh venenatis. Sit amet consectetur adipiscing elit pellentesque. Suspendisse in est ante in nibh mauris cursus mattis molestie. Etiam non quam lacus suspendisse. Porttitor rhoncus dolor purus non enim praesent elementum. Aliquet porttitor lacus luctus accumsan. Maecenas accumsan lacus vel facilisis volutpat.</p>
+            <p>
+              I am an Israeli/Panamanian UI Artist based in California. My education in Illustration helped me get a career in mobile gaming creating Concept Art, which is where I developed an interest in User Interfaces. I have been in the industry for over eight years and have shipped multiple products. I enjoy being challenged creatively and growing artistically by acquiring new skills.
+            </p>
           </div>
         </div>
 
         <div class="skills content">
             <div class="skill">
               <div class="skill-icon">
-                <img src="assets/icons/digital-drawing.svg" alt="Digital Drawing and Painting">
+                <img class="skill-image" src="assets/icons/digital-drawing.svg" alt="Digital Drawing and Painting">
               </div>
               <h4 class="text-center">Digital Drawing and Painting</h4>
               <p class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor. Sollicitudin nibh sit amet commodo nulla. Velit sed ullamcorper morbi tincidunt ornare.</p>
@@ -82,7 +102,7 @@
     
             <div class="skill">
               <div class="skill-icon">
-                <img src="assets/icons/production.svg" alt="UI Design">
+                <img class="skill-image" src="assets/icons/ui-design.svg" alt="UI Design">
               </div>
               <h4 class="text-center">UI Design</h4>
               <p class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor. Sollicitudin nibh sit amet commodo nulla.</p>
@@ -90,7 +110,7 @@
     
             <div class="skill">
               <div class="skill-icon">
-                <img src="assets/icons/production.svg" alt="Production Team Experience">
+                <img class="skill-image" src="assets/icons/production.svg" alt="Production Team Experience">
               </div>
               <h4 class="text-center">Production Team Experience</h4>
               <p class="skill-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor.</p>
@@ -134,7 +154,224 @@
     </section>
 
     <!-- TESTIMONIALS -->
-    <section>
+    <section class="testimonials-one">
+      <div class="title">
+        <h2>Testimonials</h2>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide content" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="quote-card">
+                <div class="quote-header">
+                  <div class="quote-img" style="background-image: url(./assets/images/Michael.jpg);"></div>
+                  <div class="referee">
+                    <h4>Michael Lee</h4>
+                    <h6 class="job-title">Product Manager, GC Turbo Inc.</h6>
+                  </div>
+                </div>
+                <div class="quote-text">
+                  "What stands out about Ziv is his rabid curiosity. He is constantly acquiring new skills, learning new tools and techniques, and asking unexpected questions to become a more well-rounded artist and designer.
+                  The Pokémon Company required our artists to produce content to the highest standards under tight time constraints. Ziv definitely met the challenge, designing much of the UI/UX flows that were the connective tissue of the game. Ziv earns my highest recommendation for any UI/UX artist or designer position."
+                </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/nigel.jpg);"></div>
+                <div class="referee">
+                  <h4>Nigel Li</h4>
+                  <h6 class="job-title">Art Director, Storm 8</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "Ziv is awesome.  We have worked on multiple projects together, and he is always growing, learning, and becoming a better artist/game maker.  He thrives under pressure, and is passionate about the business.  He has always been consistent in his deliveries.  He contributes ideas, helps with UI, and communicates well.  I highly recommend Ziv to any team he joins!"
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Cecilia.jpg);"></div>
+                <div class="referee">
+                  <h4>Cecilia Wong</h4>
+                  <h6 class="job-title">Art Director, Facebook</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "Ziv has been on my team for over a year and during that time, he's been an amazing asset and a great contributor. Not only does he have the very solid artistic foundation you would expect out of an artist, he is great at interfacing with project managers, UI designers, and game designers and is all around a great guy to work with."
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Norbert.jpg);"></div>
+                <div class="referee">
+                  <h4>Nortbert Kalman</h4>
+                  <h6 class="job-title">Director of Product Management, Storm 8</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "I had the pleasure to work with Ziv on several major features at Storm8, including Candy Blast Mania. Ziv understands the product vision very well, brings a lot of great ideas to the table and delivers delightful results! He works very independently and efficiently as well. Without a doubt, Ziv will be an excellent addition to any Art team he choses to join!"
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="quote-card">
+                <div class="quote-header">
+                  <div class="quote-img" style="background-image: url(./assets/images/Isaac.jpg);"></div>
+                  <div class="referee">
+                    <h4>Isaac Orloff</h4>
+                    <h6 class="job-title">Visual Development Artist, Paramount Pictures</h6>
+                  </div>
+                </div>
+                <div class="quote-text">
+                  "Ziv is one of the nicest people I have worked with. Very friendly and dedicated to improving his craft. I often spotted Ziv working after hours on drawing exercises he chose for himself to learn new techniques. A great team member, would gladly work with him again any time!"
+                </div>
+            </div>
+          </div>
+  
+          <div class="carousel-item">
+            <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Yvonne.jpg);"></div>
+                <div class="referee">
+                  <h4>Yvonne Phan</h4>
+                  <h6 class="job-title">Lead UI Designer, GC Turbo Inc.</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "Ziv doesn’t shy away from hard work, he’s dedicated to always learning more, and his curiosity keeps him as updated as possible. He’s always open and willing to learn. Ziv has no ego and that makes him an incredible team member to have.
+                Ziv not only delivers high polish work, but has the ability to juggle many projects at once and always delivers in a timely manner.
+                If you’re looking for a great team member, he’s your guy."
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control left carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+        </a>
+        <i class="fa fa-angle-left"></i>
+        </i>
+        <div style="float:right">
+          <a class="carousel-control right carousel-control-next" href="#carouselExampleIndicators" data-slide="next" style="align-text:right">
+          </a>
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="mobile-carousel testimonials-two">
+      <div class="title">
+          <h2>Testimonials</h2>
+      </div>
+      <div class="responsive-carousel content">
+        <div class="slide">
+          <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/nigel.jpg);"></div>
+                <div class="referee">
+                  <h4>Nigel Li</h4>
+                  <h6 class="job-title">Art Director, Storm 8</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "Ziv is awesome.  We have worked on multiple projects together, and he is always growing, learning, and becoming a better artist/game maker.  He thrives under pressure, and is passionate about the business.  He has always been consistent in his deliveries.  He contributes ideas, helps with UI, and communicates well.  I highly recommend Ziv to any team he joins!"
+              </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Michael.jpg);"></div>
+                <div class="referee">
+                  <h4>Michael Lee</h4>
+                  <h6 class="job-title">Product Manager, GC Turbo Inc.</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "What stands out about Ziv is his rabid curiosity. He is constantly acquiring new skills, learning new tools and techniques, and asking unexpected questions to become a more well-rounded artist and designer.
+                The Pokémon Company required our artists to produce content to the highest standards under tight time constraints. Ziv definitely met the challenge, designing much of the UI/UX flows that were the connective tissue of the game. Ziv earns my highest recommendation for any UI/UX artist or designer position."
+              </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Cecilia.jpg);"></div>
+                <div class="referee">
+                  <h4>Cecilia Wong</h4>
+                  <h6 class="job-title">Art Director, Facebook</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "Ziv has been on my team for over a year and during that time, he's been an amazing asset and a great contributor. Not only does he have the very solid artistic foundation you would expect out of an artist, he is great at interfacing with project managers, UI designers, and game designers and is all around a great guy to work with."
+              </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Norbert.jpg);"></div>
+                <div class="referee">
+                  <h4>Nortbert Kalman</h4>
+                  <h6 class="job-title">Director of Product Management, Storm 8</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "I had the pleasure to work with Ziv on several major features at Storm8, including Candy Blast Mania. Ziv understands the product vision very well, brings a lot of great ideas to the table and delivers delightful results! He works very independently and efficiently as well. Without a doubt, Ziv will be an excellent addition to any Art team he choses to join!"
+              </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="quote-card">
+              <div class="quote-header">
+                <div class="quote-img" style="background-image: url(./assets/images/Isaac.jpg);"></div>
+                <div class="referee">
+                  <h4>Isaac Orloff</h4>
+                  <h6 class="job-title">Visual Development Artist, Paramount Pictures</h6>
+                </div>
+              </div>
+              <div class="quote-text">
+                "Ziv is one of the nicest people I have worked with. Very friendly and dedicated to improving his craft. I often spotted Ziv working after hours on drawing exercises he chose for himself to learn new techniques. A great team member, would gladly work with him again any time!"
+              </div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="quote-card">
+            <div class="quote-header">
+              <div class="quote-img" style="background-image: url(./assets/images/Yvonne.jpg);"></div>
+              <div class="referee">
+                <h4>Yvonne Phan</h4>
+                <h6 class="job-title">Lead UI Designer, GC Turbo Inc.</h6>
+              </div>
+            </div>
+            <div class="quote-text">
+              "Ziv doesn’t shy away from hard work, he’s dedicated to always learning more, and his curiosity keeps him as updated as possible. He’s always open and willing to learn. Ziv has no ego and that makes him an incredible team member to have.
+              Ziv not only delivers high polish work, but has the ability to juggle many projects at once and always delivers in a timely manner.
+              If you’re looking for a great team member, he’s your guy."
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-three">
         <div class="title">
             <h2>Testimonials</h2>
         </div>
@@ -239,33 +476,33 @@
     <!-- CONTACT -->
     <section id="contact">
       <img src="assets/backgrounds/contact_banner.png" alt="Contact Banner" class="illustration-contact">
-        <div class="contact content">
-          <h2>Contact</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor. Sollicitudin nibh sit amet commodo nulla. Velit sed ullamcorper morbi tincidunt ornare.
+        <div class="contact text-center">
+          <h2 class="contact-header">Contact</h2>
+          <p class="contact-text">
+            Interested in working together?
           </p>
           <button class="btn contact-btn">
-            <i class="far fa-envelope email-icon"></i> Get in touch
-            <!-- <img src="assets/icons/letter.svg" alt="Contact Me"> -->
-            <!-- Get in touch -->
+            Get in touch
           </button>
         </div>
     </section>
 
   </div>
-    <!-- FOOTER -->
-    <footer>
-        <div class="copyright">
-          © <span id="year"></span> Ziv Pesso
-        </div>
-        <a href="#top"><i class="fas fa-chevron-up"></i> Back to Top</a>
-    </footer>
+  
+  <!-- FOOTER -->
+  <footer>
+    <div class="copyright">
+      © <span id="year"></span> Ziv Pesso
+    </div>
+    <a href="#top"><i class="fas fa-chevron-up"></i> Back to Top</a>
+  </footer>
     
-    <!-- JAVASCRIPT -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/810efd91eb.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+  <!-- JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <script src="https://kit.fontawesome.com/810efd91eb.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

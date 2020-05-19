@@ -1,0 +1,258 @@
+/********************************************
+ GENERAL
+********************************************/
+body {
+    color: #575858;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+#top {
+    height: 4rem;
+}
+.content {
+    padding: 1.75rem 1.75rem;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid #575858;
+    margin: 1.5rem auto;
+}
+
+/********************************************
+ BUTTONS
+********************************************/
+button.btn {
+    background-image: linear-gradient(180deg, #ff755a, #ff595a);
+    box-shadow: 0 7px 6px -1px #0e2d9222;
+    color: #ffffff;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+button.btn:hover {
+    color: #ffffff;
+    transform: translate(-0.2rem, -0.2rem);
+}
+
+/********************************************
+ HEADINGS
+********************************************/
+h2, h4, h6 {
+    font-family: 'Oswald', 'Arial', sans-serif;
+}
+.title {
+    align-items: center;
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+}
+
+/********************************************
+ NAVIGATION
+********************************************/
+nav {
+    background-color: #fafafa;
+    box-shadow: 0 2px 2px 0 #1c234c37;
+    height: 4rem;
+}
+.logo {
+    height: 2.25rem;
+}
+.social-icon {
+    height: 1.7rem;
+    margin: 0 5px;
+}
+nav a {
+    color: #575858;
+}
+nav a:hover {
+    color: #4a90e2;
+}
+.navbar-toggler {
+    padding: 0;
+}
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a90e2;
+    font-size: 1.8rem;
+}
+
+/********************************************
+ HEADER / WELCOME
+********************************************/
+header {
+    align-items: center;
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.welcome {
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.welcome-text {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.illustration-image {
+    width: 100%;
+}
+.scroll {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75rem;
+    height: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/********************************************
+ ABOUT
+********************************************/
+.about-me {
+    background-color: #EBF6FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.75rem 1.75rem;
+}
+.profile-pic {
+    align-self: center;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px 0 #7D81CE50;
+    height: 10rem;
+    margin-bottom: 1.75rem;
+    width: 10rem;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+.cv-btn {
+    border-radius: 9px;
+    font-size: 1.25rem;
+    min-width: 6rem;
+    padding: 0.5rem 1rem;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+}
+.skill-icon {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+.skill-image {
+
+    width: 140px;
+}
+.skill-text {
+    padding: 1rem 0;
+}
+
+/********************************************
+ PORTFOLIO
+********************************************/
+#portfolio {
+    display: none;
+}
+
+/********************************************
+ TESTIMONIALS
+********************************************/
+.mobile-carousel {
+    display: none;
+}
+
+.testimonials-three {
+    display: none;
+}
+
+.carousel-item {
+    height: 32.5rem;
+}
+
+.quote-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-img {
+    align-self: center;
+    background-size: 100%;
+    border: 2px solid #4a90e2;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+.referee {
+    align-self: center;
+    padding: 1rem 1rem 0.5rem;
+    text-align: center;
+}
+.job-title {
+    color: #57585850;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+/********************************************
+ CONTACT
+********************************************/
+#contact {
+    display: grid;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.illustration-contact, .contact {
+    grid-column: 1;
+    grid-row: 1;
+}
+.illustration-contact {
+    width: 100%;
+}
+.contact-btn {
+    align-self: center;
+    border-radius: 9px;
+    font-size: 1rem;
+    width: 10rem;
+}
+
+/********************************************
+ FOOTER
+********************************************/
+footer {
+    align-items: center;
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+    display: flex;
+    height: 2.5rem;
+    justify-content: space-between;
+    padding: 0 1.75rem;
+    width: 100%;
+    z-index: 3;
+}
+.copyright {
+    font-size: 0.75rem;
+}
+footer a {
+    color: #ffffff;
+}
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
