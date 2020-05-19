@@ -109,7 +109,7 @@ header {
     color: #ffffff;
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 .welcome {
     font-family: 'Oswald', 'Arial', sans-serif;
@@ -125,13 +125,9 @@ header {
     padding-left: 56px;
 }
 .illustration {
-    /* background-image: url("../backgrounds/landing_page_art.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40rem; */
     display: flex;
     justify-content: center;
+    margin: 1.5rem 2rem 0;
 }
 .illustration-image {
     width: 85%;
@@ -413,8 +409,6 @@ header {
 ********************************************/
 footer {
     align-items: center;
-    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
-    color: #ffffff;
     display: flex;
     height: 2.5rem;
     justify-content: space-between;
@@ -426,9 +420,7 @@ footer {
     font-size: 0.75rem;
 }
 footer a {
-    color: #ffffff;
 }
 footer a:hover {
-    color: #ffffff;
     text-decoration: none;
 }
