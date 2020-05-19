@@ -149,6 +149,10 @@ header {
     align-self: center;
     margin-bottom: 1rem;
 }
+.skill-image {
+
+    width: 140px;
+}
 .skill-text {
     padding: 1rem 0;
 }
