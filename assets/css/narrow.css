@@ -223,19 +223,28 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
+
+    padding: 1.75rem 1.75rem;
 }
 .illustration-contact, .contact {
     grid-column: 1;
     grid-row: 1;
 }
 .illustration-contact {
+    /* background-image: url('../backgrounds/contact_banner_mobile.png'); */
     width: 100%;
 }
+.contact-text {
+    width: 9rem;
+}
 .contact-btn {
-    align-self: center;
+    align-self: flex-start;
     border-radius: 9px;
     font-size: 1rem;
-    width: 10rem;
+    width: 9rem;
+}
+.contact-desktop {
+    display: none;
 }
 
 /********************************************
