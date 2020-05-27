@@ -213,7 +213,41 @@ header {
     border-radius: 10px;
     box-shadow: 0 5px 9px -1px #0e2d9222;
     height: 384px;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
+}
+.portfolio-content{
+    padding: 0.5rem 8.25rem 2rem;
+}
+.nav-pills {
+    justify-content: flex-start;
+    margin-left: 8.25rem;
+}
+.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    color: #4a90e2;
+}
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    border-bottom: 5px solid #4a90e2;
+    border-radius: 0;
+    color: #4a90e2;
+}
+.nav-pills .nav-link:hover {
+    border-bottom: 5px solid #4a90e250;
+}
+.button-div {
+    margin: 1.5rem auto 0.5rem;
+}
+.see-more-btn {
+    background-color: #ffffff;
+    border: 2px solid #4a90e2;
+    border-radius: 9px;
+    color: #4a90e2;
+    min-width: 8rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    width: 10rem;
 }
 
 /********************************************
