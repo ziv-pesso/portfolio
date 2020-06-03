@@ -80,6 +80,9 @@ nav {
 .social-icon {
     margin: 0 9px;
 }
+.social-icon:hover {
+    transform: translate(-0.2rem, -0.2rem);
+}
 nav a {
     color: #575858;
 }
@@ -458,7 +461,7 @@ header {
 footer {
     align-items: center;
     display: flex;
-    height: 2.5rem;
+    height: 3rem;
     justify-content: space-between;
     padding: 0 8.25rem;
     width: 100%;
@@ -468,7 +471,12 @@ footer {
     font-size: 0.75rem;
 }
 footer a {
+    color: #4a90e2;
 }
 footer a:hover {
+    color: #4a90e2;
     text-decoration: none;
+}
+.icon-space {
+    margin-right: 0.5rem;
 }
