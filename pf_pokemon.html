@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ziv Pesso | UI Artist Portfolio</title>
+
+    <!-- FONTS, BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="assets/css/narrow.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="assets/css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 901px)" href="assets/css/wide.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+</head>
+<body>
+    <div id="top"></div>
+    <div class="wrapper">
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+        <img class="logo" src="assets/icons/logo.svg" alt="Ziv Pesso Logo" />
+        </a>
+        <div class="social-icons">
+        <a href="https://www.linkedin.com/in/zivpesso/">
+            <img class="social-icon" src="assets/icons/icon_social_LinkedIn.svg" alt="LinkedIn" />
+        </a>
+        <a href="https://www.instagram.com/zivpessoart/">
+            <img class="social-icon" src="assets/icons/icon_social_Insta.svg" alt="Instagram" />
+        </a>
+        <a href="mailto:zivpesso@gmail.com">
+            <img class="social-icon" src="assets/icons/icon_social_Mail.svg" alt="Email" />
+        </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+          
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="main-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    
+    <!-- MAIN CONTENT -->
+
+    <!-- HEADER -->
+    <div class="title">
+        <h2>Pokemon Medallion Battle</h2>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div class="content bg-light">
+        <div class="project-section">
+            <div>
+                <h3>About</h3>
+                <p>
+                    “Pokémon Medallion Battle” is a Facebook Messenger game. You collect Pokémon and choose six of them to battle other Pokémon Trainers. Each Match consists of a series of clashes. Whoever wins three of these wins the match. The game also includes cooperative activities that challenge a player's skills in a team in new ways.
+                </p>
+            </div>
+            <img src="assets/images/pokemon/pokemon_title_image.png" alt="Pokemon Title Image">
+        </div>
+    </div>
+    <div class="content project-section">
+        <div>
+            <h3>Main Battle Screen</h3>
+            <p>
+                This is the first screen that appears in the game. Players can enter through this screen into battle with random opponents. As a player ranks up, new stadiums are unlocked, and new Pokémon become available. 
+
+            </p>
+            <p>
+                This was a highly collaborative screen. All of the Art department helped out with the creation of these beautiful stadiums. The UI went through various iterations since new features were being added to it frequently. We decided on the visual style and language for the interface pretty early on. Yellow for the most important button (“Battle” in this case) and blue for secondary ones. It was important to keep the buttons 9-sliceable, making its size easily modifiable for other screens.
+            </p>
+            <p>
+                The navigation bar icons below were one of the first elements I created to figure out the rendering style. I knew they needed to be fun and playful since it is a casual game. I also wanted them to be readable on a small scale for smaller devices. I achieved this by creating simple silhouettes and using subtle gradients for rendering. The team decided that they would act as the selected states for each button, while a flat and simple version of it would convey the deselected state. The final result is a very fun pop when the user taps on an icon.
+            </p>
+            <img src="assets/images/pokemon/Pokemon_NavIcons.png" alt="Navigation Icons">
+        </div>
+        <img src="assets/images/pokemon/Pokemon_MainBattleScreen.png" alt="Main Battle Screen">
+    </div>
+    <div class="content">
+        <h3>Duel</h3>
+        <div class="project-grid">
+            <img src="assets/images/pokemon/Pokemon_Duel_v1.png" alt="Duel Screen">
+            <img src="assets/images/pokemon/Pokemon_Duel_v2.png" alt="Duel Screen">
+            <img src="assets/images/pokemon/Pokemon_Duel_v3.png" alt="Duel Screen">
+            <img src="assets/images/pokemon/Pokemon_Duel_v4.png" alt="Duel Screen">
+        </div>
+        <p class="text-center">
+            These are iterations for the friend challenge pop-up. These appear to encourage player interaction. We tried a few images to see which ones users were more attracted to.
+        </p>
+        <div class="project-grid">
+            <div>
+                <img src="assets/images/pokemon/Pokemon_Duel_Friends_empty.png" alt="Duel Friends Screen">
+                <p>Empty State</p>
+            </div>
+            <div>
+                <img src="assets/images/pokemon/pm_challenge_main_shortList.png" alt="Duel Friends Screen">
+                <p>Short List</p>
+            </div>
+            <div>
+                <img src="assets/images/pokemon/Pokemon_Duel_Friends_scrolling.png" alt="Duel Friends Screen">
+                <p>Long List</p>
+            </div>
+            <div>
+                <img src="assets/images/pokemon/Pokemon_Duel_Friends_waiting.png" alt="Duel Friends Screen">
+                <p>Awaiting Response</p>
+            </div>
+        </div>
+        <p>
+            The team wanted this feature to be a primary focus. This would encourage interactions with friends. Unlike The Main Battle mode, this mode allows user to directly challenge their Facebook friends who play the game. A similar progression system as the one found in the Tasks feature, that way the user would already be familiar with how it works. I suggested the idea of adding icons that communicate their current online status, that way it is more likely that when you challenge someone to battle, they will respond.
+        </p>
+    </div>
+    <div class="content project-section">
+        <div>
+            <h3>Tasks</h3>
+            <p>
+                In these screens players are rewarded by achieving various tasks. Each reward has three states: disabled, ready and claimed. Prizes sparkle and glow to attract the player's attention once they are ready to be claimed.
+            </p>
+        </div>
+        <div class="project-grid">
+            <img src="assets/images/pokemon/Pokemon_Tasks_Daily.png" alt="Task Screen">
+            <img src="assets/images/pokemon/Pokemon_Tasks_Achievements.png" alt="Task Screen">
+        </div>
+    </div>
+    <div class="content">
+        <h3>Pokedex</h3>
+        <div class="project-grid">
+            <img src="assets/images/pokemon/Pokemon_Pokedex_Main.png" alt="Pokedex Screen">
+            <img src="assets/images/pokemon/Pokemon_Pokedex_Collected.png" alt="Pokedex Screen">
+            <img src="assets/images/pokemon/Pokemon_Pokedex_Unknown.png" alt="Pokedex Screen">
+        </div>
+        <p>
+            In the Pokédex players see which Pokémons they have and which ones they haven’t collected yet. After tapping on a medallion a module appears explaining what powers the Pokémon could have and its stats if it has been collected. We also had to credit the Illustrator who created the Pokémon art.
+        </p>
+    </div>
+    <div class="content">
+        <h3>Battle Results</h3>
+        <div class="project-grid">
+            <p>Victory Flow</p>
+            <p>Defeat Flow</p>
+        </div>
+        <div class="project-grid">
+            <img src="assets/images/pokemon/Pokemon_BattleResults_Victory.png" alt="Battle Results Screen">
+            <img src="assets/images/pokemon/Pokemon_BattleResults_VictoryInfo.png" alt="Battle Results Screen">
+            <img src="assets/images/pokemon/Pokemon_BattleResults_Defeat.png" alt="Battle Results Screen">
+            <img src="assets/images/pokemon/Pokemon_BattleResults_DefeatInfo.png" alt="Battle Results Screen">
+        </div>
+        <p>
+            I helped mock these screens along with some artists, animators and another UI artist. In the reward screen, we wanted to clearly convey who won and create some contrast by making the winner bigger and the defeated player smaller.
+        </p>
+    </div>
+    <div class="content">
+        <h3>Gift Sharing</h3>
+        <div class="project-grid">
+            <img src="assets/images/pokemon/Pokemon_GiftSharing_mainscreen.png" alt="Gift Sharing Screen">
+            <img src="assets/images/pokemon/Pokemon_GiftSharing_popup.png" alt="Gift Sharing Screen">
+            <div>
+                <p>
+                    Below are examples of the messages players receive inside of their Facebook Messenger chat.
+                </p>
+                <img src="assets/images/pokemon/pm_chatbot_social-gifts_coins.png" alt="Chat Message">
+                <img src="assets/images/pokemon/pm_chatbot_social-gifts_medal.png" alt="Chat Message">
+            </div>
+        </div>
+        <p>
+            Every player can send candy, coins and other great gifts to their friends. This is then sent through the Facebook Messenger platform and claimed by tapping on the received message. (The eggs with Eevee ended up being changed to the medal packs).
+        </p>
+    </div>
+    <div class="content">
+        <h3>Animation</h3>
+        <p>
+            These are assets I created working along the animation team at GC Turbo that are used to communicate support abilities in the game.
+        </p>
+        <div class="project-grid">
+            <img src="assets/images/pokemon" alt="Animation Assets">
+            <img src="assets/images/pokemon/pm_ability_supports_batonpass.gif" alt="Animation">
+            <img src="assets/images/pokemon/pm_ability_supports_helpinghand.gif" alt="Animation">
+            <img src="assets/images/pokemon/pm_ability_supports_softboiled.gif" alt="Animation">
+        </div>
+        <p class="text-center">
+            Animations above created by <a href="http://goosegutierrez.com/">Gustavo Gutierrez</a>
+        </p>
+        <div class="project-section">
+            <div>
+                <img src="assets/images/pokemon/pokeball-optimized.gif" alt="Coin Animation">
+                <p>
+                    I created this mock in After Effects at the beginning of the project of a Pokémon revealed to the player in the Gacha screen.
+                </p>
+            </div>
+            <div>
+                <img src="assets/images/pokemon/loading_optimized.gif" alt="Loading Animation">
+                <p>
+                    Loading Animation
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="content project-section">
+        <img src="assets/images/pokemon/Logo_PokemonMedallion.png" alt="Pokemon Medallion Battle Logo">
+        <img src="assets/images/pokemon/GCTurbo_logo.png" alt="">
+    </div>
+</div>
+  
+<!-- FOOTER -->
+<footer>
+  <div class="copyright">
+    © <span id="year"></span> Ziv Pesso
+  </div>
+  <a href="#top"><i class="fas fa-chevron-up icon-space"></i> Back to Top</a>
+</footer>
+  
+<!-- JAVASCRIPT -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/slick.js"></script>
+<script src="https://kit.fontawesome.com/810efd91eb.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
