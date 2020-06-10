@@ -514,12 +514,17 @@ footer a:hover {
 .project-section {
     display: flex;
 }
-.project-grid-no-gap {
+.project-grid-two {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.2rem;
 }
-.project-grid {
+.project-grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.2rem;
+}
+.project-grid-four {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.2rem;
