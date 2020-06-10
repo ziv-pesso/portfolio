@@ -506,12 +506,39 @@ footer a:hover {
     width: 400px;
     object-fit: cover;
 }
+.padding-side {
+    padding-left: 8.25rem;
+    padding-right: 8.25rem;
+}
 .project-section {
     display: flex;
     
+}
+.project-grid-no-gap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.2rem;
 }
 .project-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
+}
+.animation-assets {
+    height: 18.75rem;
+}
+.animation-div {
+    height: 23.5rem;
+    margin: 1rem 2rem;
+    width: 23.5rem;
+}
+.animation {
+    width: 100%;
+}
+.content-center {
+    align-items: center;
+    justify-content: center;
+}
+.padding-top {
+    padding-top: 4rem;
 }
