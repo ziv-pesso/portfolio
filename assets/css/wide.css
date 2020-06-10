@@ -65,6 +65,9 @@ hr {
 .bg-light {
     background-color: #EEFBFF;
 }
+.hide {
+    display: none;
+}
 
 /********************************************
  NAVIGATION
@@ -260,6 +263,30 @@ header {
     text-transform: uppercase;
     padding: 0.5rem 1rem;
     width: 10rem;
+}
+.see-more-btn:hover {
+    background-color: #4a90e2;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+figure {
+    position: relative;
+}
+.project-preview-item {
+    border-radius: 9px;
+    box-shadow: 0 3 4 0 #242E3C50;
+    object-fit: cover;
+    height: 24rem;
+    width: 100%;
+}
+figcaption {
+    background-color: #4A90E280;
+    color: #ffffff;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-size: 1.75rem;
+    margin-top: -2rem;
+    text-align: center;
 }
 
 /********************************************

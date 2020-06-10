@@ -6,6 +6,28 @@ $(document).ready(function () {
     const year = new Date().getFullYear();
 
     document.getElementById('year').innerHTML = year;
+
+    /********************************************
+     PORTFOLIO
+    ********************************************/
+    $('#professional').on('click', showProfessional);
+    $('#personal').on('click', showPersonal);
+
+    function showProfessional() {
+        console.log('Professional Section shows.');
+        $('#professional').addClass('active');
+        $('#personal').removeClass('active');
+        $('#personal-preview').addClass('hide');
+        $('#professional-preview').removeClass('hide');
+    };
+
+    function showPersonal() {
+        console.log('Personal Section shows.');
+        $('#professional').removeClass('active');
+        $('#personal').addClass('active');
+        $('#professional-preview').addClass('hide');
+        $('#personal-preview').removeClass('hide');
+    };
     
     /********************************************
      TESTIMONIALS
