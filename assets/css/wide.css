@@ -513,7 +513,6 @@ footer a:hover {
 }
 .project-section {
     display: flex;
-    
 }
 .project-grid-no-gap {
     display: grid;
@@ -523,7 +522,7 @@ footer a:hover {
 .project-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 0.2rem;
 }
 .animation-assets {
     height: 18.75rem;
