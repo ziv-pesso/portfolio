@@ -38,6 +38,7 @@ h2 {
 h3 {
     font-size: 2.25rem;
     font-weight: bold;
+    margin-bottom: 1rem;
     text-transform: uppercase;
 }
 h4 {
@@ -528,7 +529,7 @@ footer a:hover {
     height: 18.75rem;
 }
 .animation-div {
-    height: 23.5rem;
+    height: 28.5rem;
     margin: 1rem 2rem;
     width: 23.5rem;
 }
@@ -541,4 +542,12 @@ footer a:hover {
 }
 .padding-top {
     padding-top: 4rem;
+}
+.cocreator-link {
+    color: #4a90e2;
+}
+.cocreator-link:hover {
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
 }
