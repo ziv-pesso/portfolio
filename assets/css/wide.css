@@ -571,6 +571,12 @@ footer a:hover {
     align-items: center;
     justify-content: center;
 }
+.content-wrap {
+    flex-wrap: wrap;
+}
+.img-gap {
+    margin: 0.5rem;
+}
 .padding-top {
     padding-top: 4rem;
 }
