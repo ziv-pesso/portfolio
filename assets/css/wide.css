@@ -574,6 +574,9 @@ footer a:hover {
 .content-wrap {
     flex-wrap: wrap;
 }
+.content-column {
+    flex-direction: column;
+}
 .img-gap {
     margin: 0.5rem;
 }
