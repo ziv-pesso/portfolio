@@ -580,6 +580,9 @@ footer a:hover {
 .img-gap {
     margin: 0.5rem;
 }
+.img-gap-horizontal {
+    margin: 0.5rem auto;
+}
 .padding-top {
     padding-top: 4rem;
 }
