@@ -89,11 +89,13 @@ nav {
 .social-icons {
     padding-left: 2rem;
 }
-.social-icon {
-    margin: 0 9px;
-}
+.social-icon, 
+    .social-icon-play {
+        margin: 0 9px;
+    }
 .social-icon:hover {
     transform: translate(-0.2rem, -0.2rem);
+    text-decoration: none;
 }
 nav a {
     color: #575858;
@@ -261,7 +263,7 @@ header {
     color: #4a90e2;
     min-width: 8rem;
     text-transform: uppercase;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     width: 10rem;
 }
 .see-more-btn:hover {
@@ -281,12 +283,19 @@ figure {
     width: 100%;
 }
 figcaption {
+    align-items: center;
     background-color: #4A90E280;
+    border-radius: 0 0 9px 9px;
     color: #ffffff;
+    display: flex;
     font-family: 'Oswald', 'Arial', sans-serif;
-    font-size: 1.75rem;
-    margin-top: -2rem;
+    font-size: 1.5rem;
+    height: 5rem;
+    justify-content: center;
     text-align: center;
+    position: absolute;
+        bottom: 0;
+    width: 100%;
 }
 
 /********************************************
@@ -541,6 +550,11 @@ footer a:hover {
 .project-section {
     display: flex;
 }
+.project-grid {
+    align-items: center;
+    display: grid;
+    grid-gap: 0.2rem;
+}
 .project-grid-two {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -591,6 +605,22 @@ footer a:hover {
 }
 .cocreator-link:hover {
     color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+}
+.live-link-button {
+    color: color: #4a90e2;
+    background-color: transparent;
+    border: 2px solid #4a90e2;
+    border-radius: 9px;
+    display: flex;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    width: 11rem;
+}
+.live-link-button:hover {
+    border: 3px solid #4a90e2;
     font-weight: bold;
     text-decoration: none;
 }
