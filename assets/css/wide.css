@@ -102,6 +102,7 @@ nav {
 }
 nav a {
     color: #575858;
+    text-transform: uppercase;
 }
 nav a:hover {
     color: #4a90e2;
@@ -239,13 +240,15 @@ header {
     padding: 0.5rem 8.25rem 2rem;
 }
 .nav-pills {
-    justify-content: flex-start;
+    justify-content: center;
     margin-left: 8.25rem;
+    margin-right: 8.25rem;
 }
 .nav-pills .nav-link {
     background-color: transparent;
     border-radius: 0;
-    color: #4a90e2;
+    color: #575858;
+    text-transform: uppercase;
 }
 .nav-pills .nav-link.active {
     background-color: transparent;
@@ -255,6 +258,7 @@ header {
 }
 .nav-pills .nav-link:hover {
     border-bottom: 5px solid #4a90e250;
+    color: #4a90e2;
 }
 .button-div {
     margin: 1.5rem auto 0.5rem;
