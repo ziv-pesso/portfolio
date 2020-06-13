@@ -719,7 +719,9 @@ footer a:hover {
     z-index: 1;
 } 
 #modal-content {
-    margin: 20%;
+    position: relative;
+    margin: 20% auto;
+    width: 80%;
 }
 .close {
     color: #ffffff;
