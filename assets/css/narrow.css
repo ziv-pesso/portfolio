@@ -232,7 +232,16 @@ header {
 }
 
 figure {
+    background-size: 100%; 
+    background-position: center;
+    border-radius: 9px;
+    box-shadow: 0 3 4 0 #242E3C50;
+    height: 384px;
     position: relative;
+}
+figure:hover {
+    background-size: 125%;
+    transition: 1s;
 }
 .project-preview-item {
     border-radius: 9px;
@@ -437,4 +446,54 @@ footer a {
 footer a:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+/********************************************
+ COMING SOON
+********************************************/
+#coming-soon {
+    height: calc(100vh - 112px);
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
+    color: #ffffff;
+}
+
+.loader {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    height: 2rem;
+    margin-top: 2rem;
+}
+.loader > span {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 0.75rem;
+    margin: 0 10px;
+    width: 0.75rem;
+
+    transform: translate3d(0);
+    animation: bounce 0.5s infinite alternate;
+}
+
+.loader > span:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.loader > span:nth-child(3) {
+    animation-delay: 0.25s;
+}
+
+@keyframes bounce {
+    to {
+        transform: translate3d(0, -1rem, 0);
+    }
 }
