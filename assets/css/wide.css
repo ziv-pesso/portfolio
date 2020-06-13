@@ -68,6 +68,9 @@ hr {
 .hide {
     display: none;
 }
+.only-mobile {
+    display: none;
+}
 
 /********************************************
  NAVIGATION
@@ -445,7 +448,7 @@ figcaption {
     font-size: 2rem;
 }
 
-.testimonials-one, .testimonials-three {
+.desktop-testimonial {
     display: none;
 }
 
@@ -453,17 +456,11 @@ figcaption {
  CONTACT
 ********************************************/
 #contact {
-    /* background-image: url("../backgrounds/contact_banner.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%; */
     display: grid;
 }
 .contact {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     padding: 8rem 5rem;
     text-align: center;
     width: 100%;
@@ -531,7 +528,7 @@ footer a:hover {
 ********************************************/
 #personal-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
     text-align: center;
@@ -540,12 +537,15 @@ footer a:hover {
     border-radius: 5px;
     box-shadow: 0 1 2 0 #38519650;
     height: 250px;
-    width: 400px;
+    width: 100%;
     object-fit: cover;
 }
 .padding-side {
     padding-left: 8.25rem;
     padding-right: 8.25rem;
+}
+.padding-right {
+    padding-right: 1rem;
 }
 .project-section {
     display: flex;
