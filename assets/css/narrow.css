@@ -283,6 +283,7 @@ figcaption {
 .nav-pills .nav-link:hover {
     border-bottom: 5px solid #4a90e250;
 }
+
 #personal-content {
     display: grid;
     grid-template-columns: repeat(1fr);
@@ -295,7 +296,14 @@ figcaption {
     box-shadow: 0 1 2 0 #38519650;
     height: 250px;
     width: 100%;
-    object-fit: cover;
+}
+.personal-content-img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 1 2 0 #38519650;
+    height: 250px;
+    width: 100%;
 }
 
 .project-section {

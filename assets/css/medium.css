@@ -30,6 +30,40 @@ figure:hover {
     transition: 1s;
 }
 
+#personal-content {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+#personal-content img {
+    border-radius: 5px;
+    box-shadow: 0 1 2 0 #38519650;
+    height: 250px;
+    width: 100%;
+}
+.personal-content-img {
+    background-size: 100%;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 1 2 0 #38519650;
+    height: 250px;
+    width: 100%;
+}
+.personal-content-img-zoomed {
+    background-size: 120%;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 1 2 0 #38519650;
+    height: 250px;
+    width: 100%;
+}
+.personal-content-img-zoomed:hover {
+    background-size: 140%;
+    transition: 1s;
+}
+
 /********************************************
  TESTIMONIALS
 ********************************************/

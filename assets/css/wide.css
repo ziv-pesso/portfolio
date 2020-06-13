@@ -283,10 +283,11 @@ figure {
     height: 384px;
     position: relative;
 }
-figure:hover {
-    background-size: 125%;
-    transition: 1s;
-}
+figure:hover, 
+    .personal-content-img:hover {
+        background-size: 125%;
+        transition: 1s;
+    }
 .project-preview-item {
     border-radius: 9px;
     box-shadow: 0 3 4 0 #242E3C50;
@@ -547,7 +548,26 @@ footer a:hover {
     box-shadow: 0 1 2 0 #38519650;
     height: 250px;
     width: 100%;
-    object-fit: cover;
+}
+.personal-content-img {
+    background-size: 100%;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 1 2 0 #38519650;
+    height: 250px;
+    width: 100%;
+}
+.personal-content-img-zoomed {
+    background-size: 120%;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 1 2 0 #38519650;
+    height: 250px;
+    width: 100%;
+}
+.personal-content-img-zoomed:hover {
+    background-size: 140%;
+    transition: 1s;
 }
 .padding-side {
     padding-left: 8.25rem;
