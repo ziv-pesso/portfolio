@@ -543,12 +543,12 @@ footer a:hover {
     justify-items: center;
     text-align: center;
 }
-#personal-content img {
+/* #personal-content img {
     border-radius: 5px;
     box-shadow: 0 1 2 0 #38519650;
     height: 250px;
     width: 100%;
-}
+} */
 .personal-content-img {
     background-size: 100%;
     background-position: center;
@@ -703,3 +703,32 @@ footer a:hover {
         transform: translate3d(0, -1rem, 0);
     }
 }
+
+/********************************************
+ MODAL
+********************************************/
+#modal {
+    background-color: #393D4990;
+    display: none;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+        left: 0;
+        top: 0;
+    width: 100%;
+    z-index: 1;
+} 
+#modal-content {
+    margin: 20%;
+}
+.close {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
