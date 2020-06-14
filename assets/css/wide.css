@@ -641,22 +641,26 @@ footer a:hover {
     background-color: #393D4990;
     display: none;
     height: 100%;
-    overflow: auto;
     position: fixed;
-        left: 0;
-        top: 0;
+    top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
 } 
-#modal-content {
-    position: relative;
-    margin: 20% auto;
-    width: 80%;
+#modal.active {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.personal-content-img {
+    cursor: pointer;
 }
 .close {
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
+    position: absolute;
+        top: 5rem;
+        right: 5rem;
 }
 .close:hover,
   .close:focus {
@@ -664,3 +668,7 @@ footer a:hover {
     text-decoration: none;
     cursor: pointer;
   }
+.zoomed-image {
+    height: 750px;
+    object-fit: cover;
+}
