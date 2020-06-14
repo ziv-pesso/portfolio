@@ -563,3 +563,43 @@ footer a:hover {
         transform: translate3d(0, -1rem, 0);
     }
 }
+
+/********************************************
+ MODAL
+********************************************/
+#modal {
+    background-color: #393D4990;
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+} 
+#modal.active {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.personal-content-img {
+    cursor: pointer;
+}
+.close {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+        top: 5rem;
+        right: 5rem;
+}
+.close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.zoomed-image {
+    border-radius: 9px;
+    object-fit: cover;
+    width: 75%;
+}

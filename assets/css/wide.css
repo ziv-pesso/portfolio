@@ -669,6 +669,8 @@ footer a:hover {
     cursor: pointer;
   }
 .zoomed-image {
+    border-radius: 9px;
     height: 750px;
     object-fit: cover;
+    max-width: 90%;
 }
