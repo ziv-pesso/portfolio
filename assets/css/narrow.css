@@ -34,9 +34,6 @@ hr {
 .mobile-margin {
     margin: 0.5rem auto;
 }
-.social-icons {
-    padding-left: 2rem;
-}
 .social-icon, 
     .social-icon-play {
         margin: 0 9px;
@@ -56,6 +53,42 @@ button.btn:hover {
     color: #ffffff;
     transform: translate(-0.2rem, -0.2rem);
 }
+.button-div {
+    margin: 1.5rem auto 0.5rem;
+}
+.see-more-btn {
+    background-color: #ffffff;
+    border: 2px solid #4a90e2;
+    border-radius: 9px;
+    color: #4a90e2;
+    min-width: 8rem;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    width: 10rem;
+}
+.see-more-btn:hover {
+    background-color: #4a90e2;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.live-link-button {
+    color: color: #4a90e2;
+    background-color: transparent;
+    border: 2px solid #4a90e2;
+    border-radius: 9px;
+    display: flex;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    width: 11rem;
+}
+.live-link-button:hover {
+    border: 3px solid #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /********************************************
  HEADINGS
@@ -74,6 +107,18 @@ h2, h3 {
     display: flex;
     height: 4rem;
     justify-content: center;
+}
+
+/********************************************
+ LINKS
+********************************************/
+.cocreator-link {
+    color: #4a90e2;
+}
+.cocreator-link:hover {
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /********************************************
@@ -212,26 +257,6 @@ header {
     padding: 1.75rem 1.75rem;
 }
 
-.button-div {
-    margin: 1.5rem auto 0.5rem;
-}
-.see-more-btn {
-    background-color: #ffffff;
-    border: 2px solid #4a90e2;
-    border-radius: 9px;
-    color: #4a90e2;
-    min-width: 8rem;
-    text-transform: uppercase;
-    padding: 0.5rem 2rem;
-    width: 10rem;
-}
-.see-more-btn:hover {
-    background-color: #4a90e2;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 figure {
     background-size: 100%; 
     background-position: center;
@@ -327,32 +352,6 @@ figcaption {
     flex-wrap: wrap;
 }
 
-.cocreator-link {
-    color: #4a90e2;
-}
-.cocreator-link:hover {
-    color: #4a90e2;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.live-link-button {
-    color: color: #4a90e2;
-    background-color: transparent;
-    border: 2px solid #4a90e2;
-    border-radius: 9px;
-    display: flex;
-    margin: 1rem 0.5rem;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    width: 11rem;
-}
-.live-link-button:hover {
-    border: 3px solid #4a90e2;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .padding-top {
     padding-top: 2rem;
 }
@@ -360,11 +359,7 @@ figcaption {
 /********************************************
  TESTIMONIALS
 ********************************************/
-.mobile-carousel {
-    display: none;
-}
-
-.testimonials-three {
+.desktop-testimonial {
     display: none;
 }
 
