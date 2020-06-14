@@ -119,7 +119,7 @@ nav a:hover {
 .nav-item {
     margin-right: 2rem;
 }
-.active {
+.nav-link.active {
     color: #4a90e2;
     font-weight: bold;
     border-bottom: 5px solid #4a90e2;
