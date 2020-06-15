@@ -38,7 +38,7 @@ hr {
     .social-icon-play {
         margin: 0 9px;
     }
-
+    
 /********************************************
  BUTTONS
 ********************************************/
@@ -342,6 +342,12 @@ figcaption {
     align-items: center;
     display: grid;
     grid-gap: 0.2rem;
+}
+.project-grid-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .content-center {
