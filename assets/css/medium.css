@@ -15,6 +15,11 @@ body {
 .width-blocker {
     margin-left: auto;
     margin-right: auto;
+    max-width: 600px;
+}
+.width-blocker-hungrybabies {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 850px;
 }
 
@@ -34,17 +39,13 @@ hr {
 .only-desktop {
     display: none;
 }
-.mobile-full {
-    width: 100%;
-}
-.mobile-margin {
-    margin: 0.5rem auto;
-}
 .social-icon, 
     .social-icon-play {
         margin: 0 9px;
     }
-
+.tablet-blocker {
+    max-width: 600px;
+}
 /********************************************
  BUTTONS
 ********************************************/
