@@ -83,6 +83,13 @@ hr {
     display: none;
 }
 
+.skill--text {
+    max-width: 500px;
+    padding-right: 1rem;
+
+    align-self: center;
+}
+
 /********************************************
  NAVIGATION
 ********************************************/
