@@ -14,9 +14,9 @@
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" media="screen and (max-width: 700px)" href="assets/css/narrow.css">
-    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 935px)" href="assets/css/medium.css">
-    <link rel="stylesheet" media="screen and (min-width: 936px)" href="assets/css/wide.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 1024px)" href="assets/css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="assets/css/wide.css">
+    <link rel="stylesheet" href="assets/css/bustAMove.css">
 </head>
 <body>
     <div id="top"></div>
@@ -85,18 +85,18 @@
     </div>
 
     <div class="content">
-        <div class="project-grid" style="grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));">
+        <div class="chest--grid">
             <img src="assets/images/bustAMove/BMove_MainChests.png" alt="Main Chests">
             <img src="assets/images/bustAMove/BMove_ChestOpening.png" alt="Opening Chest">
             <img src="assets/images/bustAMove/BMove_ChestOpenNow.png" alt="Opening Chest">
         </div>
-        <p>
+        <p class="chest--text">
             This is an iteration we had for the main screen that ended up getting changed. Players would frequently get treasure chests, but would only have a certain amount they could hold at once. Tapping on one would start a timer to open it, the higher the rarity the longer it would take. Additionally, a free chest would also be awarded to players several times a day.
         </p>
-        <div class="project-grid" style="grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));">
+        <div class="leaderboard--grid">
             <div>
                 <img src="assets/images/bustAMove/Bmove_Main_Leadeboard_01.png" alt="Main Leaderboard">
-                <p>
+                <p class="leaderboard--text">
                     Main screen iteration with leaderboard as a focus. Since this is a social game we wanted to highlight features that encourage player interactivity. This also includes sending gifts through Messenger.
                 </p>
             </div>
@@ -105,7 +105,7 @@
             </div>
             <div>
                 <img src="assets/images/bustAMove/BMove_AttackUpgrade.png" alt="Attack Upgrade">
-                <p>
+                <p class="leaderboard--text">
                     This is the upgradre screen. This allows players to upgrade the damage they inflict on enemies. I also helped with the creation of the various bullet icons.
                 </p>
             </div>
@@ -122,16 +122,16 @@
             <img src="assets/images/bustAMove/Bmove_Gacha_Chestflow3.png" alt="Chestflow Screen">
             <img src="assets/images/bustAMove/Bmove_Gacha_Chestflow4.png" alt="Chestflow Screen">
         </div>
-        <p>
+        <p class="gacha--text">
             The Main Shop screen was design by my lead <a class="cocreator-link" href="https://www.nikkitinedesign.com/">Nikki Phung</a>. I helped with the Treasure Chest art, info screen and flow for how they open. When I painted the background I decided to go with a night time scene since I wanted the glow effects to pop more. This was later animated and polished by an animator.
         </p>
     </div>
 
     <div class="content">
         <h3>UI Backgrounds</h3>
-        <div class="project-section">
-            <img src="assets/images/bustAMove/BMove_UI-BG_Night.png" alt="Night Background">
-            <img src="assets/images/bustAMove/BMove_UI-BG_day.png" alt="Day Background">
+        <div class="project-section content-center">
+            <img class="mobile-full" style="margin-bottom: 1rem;" src="assets/images/bustAMove/BMove_UI-BG_Night.png" alt="Night Background">
+            <img class="mobile-full" src="assets/images/bustAMove/BMove_UI-BG_day.png" alt="Day Background">
         </div>
     </div>
 
@@ -140,35 +140,38 @@
         <p>
             Since this game had multiple levels, I had to come up with a modular and reskinnable template for the background pieces. Before starting to paint, I like to send various rough sketches with the UI layered on top to my art director. This is to make sure it doesn't obstruct the information the player needs and that I'm heading in the right direction.
         </p>
-        <div class="project-section wrap">
-            <div>
-                <img src="assets/images/bustAMove/BMove_BackgroundPieces.png" alt="Background Pieces">
-                <p style="padding-right: 2rem; padding-top: 1rem;">
-                    Above is how the assets were broken down to build the various levels. A mask was also provided for the area where the bubbles are hidden. This is a template that was agreed upon with the engineers building the game.
-                </p>
-            </div>
-            <div class="project-section wrap">
+        <div class="project-section content-center">
+            <img src="assets/images/bustAMove/BMove_BackgroundPieces.png" alt="Background Pieces">
+            <p style="padding-right: 2rem; padding-top: 1rem;">
+                Above is how the assets were broken down to build the various levels. A mask was also provided for the area where the bubbles are hidden. This is a template that was agreed upon with the engineers building the game.
+            </p>
+        </div>
+        <div class="gamelevel--background--grid">
                 <img src="assets/images/bustAMove/BMove_Background_ToyIsland.png" alt="Toy Island">
                 <img src="assets/images/bustAMove/BMove_Background_MonsterIsland.png" alt="Monster Island">
                 <img src="assets/images/bustAMove/BMove_Background_RobotIsland.png" alt="Robot Island">
                 <img src="assets/images/bustAMove/BMove_Background_InsectIsland.png" alt="Insect Island">
                 <img src="assets/images/bustAMove/BMove_Background_DragonIsland.png" alt="Dragon Island">
                 <img src="assets/images/bustAMove/BMove_GameMock.png" alt="Game Mock">
-            </div>
         </div>
-        <div class="project-section wrap">
-            <img src="assets/images/bustAMove/BMove_LevelVignette_InsectIsland1.png" alt="Insect Island">
-            <img src="assets/images/bustAMove/BMove_LevelVignette_ToyIsland.png" alt="Toy Island">
-            <img src="assets/images/bustAMove/BMove_LevelVignette_InsectIsland2.png" alt="Insect Island">
-            <img src="assets/images/bustAMove/BMove_LevelVignette_DragonIsland.png" alt="Dragon Island">
+    </div>
+
+    <div class="content">
+        <div class="project-section content-center">
+            <img class="mobile-full vignette-space" style="margin-right: 0.5rem; margin-bottom: 0.5rem;" src="assets/images/bustAMove/BMove_LevelVignette_InsectIsland1.png" alt="Insect Island">
+            <img class="mobile-full vignette-space" style="margin-right: 0.5rem; margin-bottom: 0.5rem;" src="assets/images/bustAMove/BMove_LevelVignette_ToyIsland.png" alt="Toy Island">
         </div>
-        <p>
+        <div class="project-section content-center">
+            <img class="mobile-full vignette-space" style="margin-right: 0.5rem; margin-bottom: 0.5rem;" src="assets/images/bustAMove/BMove_LevelVignette_InsectIsland2.png" alt="Insect Island">
+            <img class="mobile-full vignette-space" style="margin-right: 0.5rem; margin-bottom: 0.5rem;" src="assets/images/bustAMove/BMove_LevelVignette_DragonIsland.png" alt="Dragon Island">
+        </div>
+        <!-- <p>
             These small icons were part of an exploration on how the user would enter the various levels.
-        </p>
-        <img src="assets/images/bustAMove" alt="">
+        </p> -->
+        <!-- <img src="assets/images/bustAMove" alt="">
         <p>
             These small icons were part of an exploration of how the user would enter the various levels. I wanted these to look like miniature dioramas.
-        </p>
+        </p> -->
     </div>
 
     <div class="content">
@@ -176,22 +179,22 @@
         <p>
             Since we were a small team at Gameclosure, sometimes I got the opportunity to try something new. This included Marketing art to entice people to try the game. While designing these, my main goal was to quickly show what genre of game it is and show off its colorful playfulness.
         </p>
-        <div class="text-center">
-            <img src="assets/images/bustAMove/BMove_PromoArt_1.png" alt="Promotional Art">
-            <img src="assets/images/bustAMove/BMove_PromoArt_2.png" alt="Promotional Art">
-            <img src="assets/images/bustAMove/BMove_PromoArt_3.png" alt="Promotional Art">
-            <img src="assets/images/bustAMove/BMove_PromoArt_4.png" alt="Promotional Art">
+        <div class="project-section content-center" style="flex-direction: column;">
+            <img class="mobile-full" style="margin-bottom: 1rem;" src="assets/images/bustAMove/BMove_PromoArt_1.png" alt="Promotional Art">
+            <img class="mobile-full" style="margin-bottom: 1rem;" src="assets/images/bustAMove/BMove_PromoArt_2.png" alt="Promotional Art">
+            <img class="mobile-full" style="margin-bottom: 1rem;" src="assets/images/bustAMove/BMove_PromoArt_3.png" alt="Promotional Art">
+            <img class="mobile-full" src="assets/images/bustAMove/BMove_PromoArt_4.png" alt="Promotional Art">
         </div>
     </div>
 
-    <div class="content project-section content-center">
-        <a href="https://www.gameclosure.com/" style="margin-right: 4rem;">
+    <div class="project-section content-center">
+        <a class="logo-space" href="https://www.gameclosure.com/" style="margin-bottom: 2rem;">
             <img src="assets/images/everwing/GC_logo.png" alt="Gameclosure Logo">
         </a>
-        <a href="https://www.taito.co.jp/en" style="margin-right: 4rem;">
+        <a class="logo-space" href="https://www.taito.co.jp/en" style="margin-bottom: 2rem;">
             <img style="height: 100px;" src="assets/images/bustAMove/BMove_Taito_Logo.png" alt="Taito Games Logo">
         </a>
-        <a href="http://corp.rakuten-games.com/en/">
+        <a href="http://corp.rakuten-games.com/en/" style="margin-bottom: 2rem;">
             <img style="width: 300px;" src="assets/images/bustAMove/BMove_Rakuten_Logo.png" alt="Rakuten Games Logo">
         </a>
     </div>

@@ -1,0 +1,47 @@
+.chest--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+}
+.chest--text {
+    margin: 1rem auto 2rem;
+}
+
+.leaderboard--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+}
+.leaderboard--text, .gacha--text {
+    margin-top: 1rem;
+}
+
+.gacha--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+.background--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+.gamelevel--background--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+.vignette--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+}
