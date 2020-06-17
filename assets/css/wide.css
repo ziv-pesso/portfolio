@@ -90,6 +90,15 @@ hr {
     align-self: center;
 }
 
+.evertown--about {
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.evertown--mocks {
+    max-height: 940px;
+}
+
 /********************************************
  NAVIGATION
 ********************************************/
