@@ -378,6 +378,11 @@ figcaption {
     padding-top: 2rem;
 }
 
+.tablet-padding-side {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+}
+
 /********************************************
  TESTIMONIALS
 ********************************************/
