@@ -517,12 +517,6 @@ footer a:hover {
     justify-items: center;
     text-align: center;
 }
-/* #personal-content img {
-    border-radius: 5px;
-    box-shadow: 0 1 2 0 #38519650;
-    height: 250px;
-    width: 100%;
-} */
 .personal-content-img {
     background-size: 100%;
     background-position: center;
