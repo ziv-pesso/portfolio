@@ -16,7 +16,7 @@
     <link rel="stylesheet" media="screen and (max-width: 700px)" href="assets/css/narrow.css">
     <link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 935px)" href="assets/css/medium.css">
     <link rel="stylesheet" media="screen and (min-width: 936px)" href="assets/css/wide.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/candymania.css">
 </head>
 <body>
     <div id="top"></div>
@@ -78,11 +78,15 @@
     <hr class="portfolio-divider">
 
     <!-- PORTFOLIO -->
-    <div class="padding-side">
+    <div class="padding-side mobile-padding-side">
         <h3>Splash Screens</h3>
-        <div class="project-grid-two">
-            <img src="assets/images/candyMania/candy_splash_Anniversary.png" alt="Anniversary Splash Screen">
-            <img src="assets/images/candyMania/Candy_splash_Halloween.png" alt="Halloween Splash Screen">
+        <div class="splash--grid">
+            <div class="splash--item">
+                <img src="assets/images/candyMania/candy_splash_Anniversary.png" alt="Anniversary Splash Screen">
+            </div>
+            <div class="splash--item">
+                <img src="assets/images/candyMania/Candy_splash_Halloween.png" alt="Halloween Splash Screen">
+            </div>
         </div>
     </div>
 
@@ -90,14 +94,14 @@
 
     <div class="content">
         <h3>Backgrounds</h3>
-        <div class="project-grid-two">
-            <div>
+        <div class="backgrounds--grid">
+            <div class="backgrounds--item">
                 <img src="assets/images/candyMania/Candy_Background_Halloween.png" alt="Halloween Background">
                 <p class="text-center">
                     Background for the Halloween Update
                 </p>
             </div>
-            <div>
+            <div class="backgrounds--item">
                 <img src="assets/images/candyMania/Candy_Background_Aladdin.png" alt="Aladdin Background">
                 <p class="text-center">
                     Background for an Aladdin inspired region in the main game
@@ -110,14 +114,20 @@
 
     <div class="content">
         <h3>Candy Tournament</h3>
-        <img src="assets/images/candyMania/Candy_Tournament_Trophies.png" alt="Tournament Trophies">
+        <img class="mobile-full" src="assets/images/candyMania/Candy_Tournament_Trophies.png" alt="Tournament Trophies">
         <p class="text-center">
             Trophies for each tournament
         </p>
-        <div class="project-grid-three">
-            <img src="assets/images/candyMania/Candy_background_thumbnails.png" alt="Background Sketches">
-            <img src="assets/images/candyMania/Candy_Jellybean_game_background.png" alt="Jellybean Background">
-            <img src="assets/images/candyMania/Candy_Gumdrop_game_background_Final.png" alt="Gumdrop Background">
+        <div class="tournament--grid">
+            <div class="tournament--item">
+                <img src="assets/images/candyMania/Candy_background_thumbnails.png" alt="Background Sketches">
+            </div>
+            <div class="tournament--item">
+                <img src="assets/images/candyMania/Candy_Jellybean_game_background.png" alt="Jellybean Background">
+            </div>
+            <div class="tournament--item">
+                <img src="assets/images/candyMania/Candy_Gumdrop_game_background_Final.png" alt="Gumdrop Background">
+            </div>
         </div>
         <p>
             In this feature players try to compete for a higher score in candy themed tournaments. We decided to assign a color to each tournament so that the trophies, backgrounds and UI elements all connect to each other, creating a visual language as a result. For example the Jelly Bean Tournament  has a trophy with a green icon, ribbons and background color as well.
@@ -126,10 +136,10 @@
         <hr class="portfolio-divider">
 
         <div class="project-section content-center">
-            <img src="assets/images/candyMania/Candy_Tournament_Flow.png" alt="Tournament Flow Mockup">
-            <p style="padding-left: 2rem;">
+            <p style="padding-right: 2rem;">
                 This is a very quick and rough flow mockup that I created in order to communicate the idea with the rest of the team. The UI and flow for these screens were created by <a class="cocreator-link" href="https://kikiho.com/" target="_blank">Kiki Ho</a>.
             </p>
+            <img class="mobile-full" src="assets/images/candyMania/Candy_Tournament_Flow.png" alt="Tournament Flow Mockup">
         </div>
     </div>
 
@@ -137,16 +147,16 @@
 
     <div class="content">
         <h3>King of the Hill</h3>
-        <div class="project-grid-three">
-            <div>
+        <div class="koh--grid">
+            <div class="koh--item">
                 <p class="text-center">Map Screen</p>
                 <img src="assets/images/candyMania/Candy_KOTH_map.png" alt="King of the Hill Map">
             </div>
-            <div>
+            <div class="koh--item">
                 <p class="text-center">UI by <a class="cocreator-link" href="https://www.linkedin.com/in/priscillia/" target="_blank">Priscillia Pun</a></p>
                 <img src="assets/images/candyMania/Candy_KOTH_Map&UI.png" alt="UI Preview">
             </div>
-            <div>
+            <div class="koh--item">
                 <p class="text-center">Treasure Opening Screen</p>
                 <img src="assets/images/candyMania/Candy_KOTH_ChestScreen.png" alt="Chest Screen">
             </div>
@@ -159,16 +169,16 @@
     <hr class="portfolio-divider">
 
     <div class="content project-section content-center">
-        <div>
-            <img src="assets/images/candyMania/Candy_Tournament_Flow.png" alt="Tournament Flow Mockup">
-            <p class="text-center">Treasure Chest Texture Atlas</p>
-        </div>
-        <div style="padding-left: 2rem;">
+        <div style="padding-right: 2rem;">
             <h3>Animation Ready</h3>
             <p>
                 This is how the treasure chest was taken apart in order to get it ready for animation.
                 I usually consult with the Animation team or the animator who will work on it to make sure they have every part separated correctly. I had to create both the closed and open states.
             </p>
+        </div>
+        <div>
+            <img class="mobile-full" src="assets/images/candyMania/Candy_KOTH_ChestTextureAtlas.png" alt="Chest Texture Atlas">
+            <p class="text-center">Chest Texture Atlas</p>
         </div>
     </div>
 
