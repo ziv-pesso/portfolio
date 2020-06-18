@@ -7,7 +7,7 @@
 
 .iterations--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px ,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min-content ,1fr));
     justify-items: center;
     grid-row-gap: 1rem;
 }

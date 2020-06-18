@@ -69,6 +69,12 @@ hr {
     border-bottom: 2px solid #575858;
     margin: 1.5rem auto;
 }
+hr.portfolio-divider {
+    border: none;
+    border-bottom: 2px solid #57585815;
+    margin: 1rem 8.25rem 2rem;
+}
+
 .title {
     align-items: center;
     background-image: linear-gradient(to right, #7CC5FE, #6BA9F0);
