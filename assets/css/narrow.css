@@ -437,7 +437,6 @@ figcaption {
     grid-row: 1;
 }
 .illustration-contact {
-    /* background-image: url('../backgrounds/contact_banner_mobile.png'); */
     width: 100%;
 }
 .contact-text {
@@ -446,8 +445,9 @@ figcaption {
 .contact-btn {
     align-self: flex-start;
     border-radius: 9px;
-    font-size: 1rem;
-    width: 12.5rem;
+    font-size: 1.25rem;
+    height: 3.5rem;
+    width: 10rem;
 }
 .contact-desktop {
     display: none;
