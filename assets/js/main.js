@@ -1,11 +1,16 @@
 $(document).ready(function () {
-
     /********************************************
      FOOTER YEAR
     ********************************************/
     const year = new Date().getFullYear();
 
-    document.getElementById('year').innerHTML = year;
+    $('#year').html(year);
+
+    /********************************************
+     YEARS OF EXPERIENCE
+    ********************************************/
+    const totalExperience = year - 2011;
+    $('#experience-years').html(totalExperience);
 
     /********************************************
      PORTFOLIO
