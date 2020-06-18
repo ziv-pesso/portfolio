@@ -1,8 +1,13 @@
 .chest--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
+}
+.chest--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 .chest--text {
     margin: 1rem auto 2rem;
@@ -10,12 +15,14 @@
 
 .leaderboard--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
 }
-.leaderboard--item {
-    text-align: center;
+.leaderboard--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 .leaderboard--text, .gacha--text {
     margin-top: 1rem;
@@ -23,31 +30,60 @@
 
 .gacha--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
 }
-.gacha--item {
-    text-align: center;
+.gacha--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 
-.background--grid {
+.backgrounds--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
+}
+.backgrounds--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 
 .gamelevel--background--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
+}
+.gamelevel--background--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 
 .vignette--grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
     grid-gap: 1rem;
     justify-items: center;
+}
+.vignette--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.promoart--grid {
+    display: grid;
+    grid-template-columns: minmax(324px, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+}
+.promoart--item > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
