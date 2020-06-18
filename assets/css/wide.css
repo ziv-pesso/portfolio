@@ -37,7 +37,7 @@ button.btn:hover {
     color: #ffffff;
     transform: translate(-0.2rem, -0.2rem);
 }
-h2, h3, h4, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Oswald', 'Arial', sans-serif;
 }
 h2 {
@@ -54,6 +54,10 @@ h3 {
 }
 h4 {
     color: #4a90e2;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+h5 {
     font-size: 1.25rem;
     font-weight: bold;
 }

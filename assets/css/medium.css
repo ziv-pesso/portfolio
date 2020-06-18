@@ -101,12 +101,15 @@ button.btn:hover {
 /********************************************
  HEADINGS
 ********************************************/
-h2, h3, h4, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Oswald', 'Arial', sans-serif;
 }
 h2, h3 {
     font-size: 1.75rem;
     text-transform: uppercase;
+}
+h5 {
+    font-size: 1.5rem;
 }
 .title {
     align-items: center;
