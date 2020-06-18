@@ -26,6 +26,11 @@ hr.portfolio-divider {
     border-bottom: 2px solid #57585815;
     margin: 1rem 1.75rem 1.75rem;
 }
+hr.portfolio-divider-full {
+    border: none;
+    border-bottom: 2px solid #57585815;
+    margin: 1rem auto 1.75rem;
+}
 
 .hide {
     display: none;
