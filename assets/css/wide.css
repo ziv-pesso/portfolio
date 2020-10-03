@@ -25,6 +25,12 @@ body {
     max-width: 1180px;
 }
 
+.large-center-fix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button.btn {
     background-image: linear-gradient(180deg, #ff755a, #ff595a);
     /* background-image: linear-gradient(180deg, #F1C401, #F8A609); */
