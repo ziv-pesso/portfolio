@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="261px" height="159px" viewBox="0 0 261 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
-    <title>Icon_AboutMe_UI</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icon_AboutMe_UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(34.000000, 7.000000)">
-            <path d="M85.4586494,115 L107.709519,115 C114.507493,115 120.157619,120.237445 120.672218,127.015914 C120.759796,128.169513 120.885171,129.336053 121.048372,130.515549 C121.623839,134.674608 122.647617,138.835711 124.120419,142.999633 C124.672901,144.561653 123.85452,146.275799 122.292505,146.828292 C121.971218,146.941933 121.632917,147 121.292125,147 L71.9667954,147 C70.3099414,147 68.9667959,145.656854 68.9667959,144 C68.9667959,143.679483 69.0181595,143.361036 69.118933,143.056773 C70.8639373,137.788122 71.8890274,134.04382 72.1907843,131.862941 C72.3258196,130.887004 72.4172784,129.48758 72.4627315,127.674243 C72.6394627,120.623658 78.4058497,115 85.4586494,115 Z" id="Rectangle-Copy-5" stroke="#063880" stroke-width="2" fill="#9AC0EE"></path>
-            <rect id="Rectangle" stroke="#0B3A7E" stroke-width="2" fill="#E1EDFB" x="1.18134715" y="1" width="191" height="124" rx="12"></rect>
-            <rect id="Rectangle-Copy-3" stroke="#0B3A7E" stroke-width="2" fill="#FFFFFF" x="12" y="11" width="169" height="86" rx="5"></rect>
-            <rect id="Rectangle-Copy-9" stroke="#063880" fill="#9AC0EE" x="50.6813472" y="32.5" width="123" height="57"></rect>
-            <rect id="Rectangle-Copy-12" stroke="#063880" fill="#9AC0EE" x="17.6813472" y="32.5" width="26" height="57"></rect>
-            <rect id="Rectangle-Copy-11" stroke="#063880" fill="#9AC0EE" x="18.5" y="16.5" width="156" height="10"></rect>
-            <rect id="Rectangle-Copy-10" stroke="#0B3A7E" fill="#6097DF" x="72.6813472" y="65.5" width="74" height="17"></rect>
-            <circle id="Oval" stroke="#063880" stroke-width="2" fill="#9AC0EE" cx="97.3186528" cy="111.5" r="7.5"></circle>
-        </g>
-    </g>
-</svg>
+<svg width="261" height="159" xmlns="http://www.w3.org/2000/svg"><g transform="translate(34 7)" fill="none" fill-rule="evenodd"><path d="M85.459 115h22.25a13 13 0 0112.963 12.016c.088 1.154.213 2.32.376 3.5.576 4.159 1.6 8.32 3.072 12.484a3 3 0 01-2.828 4H71.967a3 3 0 01-2.848-3.943c1.745-5.269 2.77-9.013 3.072-11.194.135-.976.226-2.375.272-4.189.176-7.05 5.943-12.674 12.996-12.674z" stroke="#063880" stroke-width="2" fill="#9AC0EE"/><rect stroke="#0B3A7E" stroke-width="2" fill="#E1EDFB" x="1.181" y="1" width="191" height="124" rx="12"/><rect stroke="#0B3A7E" stroke-width="2" fill="#FFF" x="12" y="11" width="169" height="86" rx="5"/><path stroke="#063880" fill="#9AC0EE" d="M50.681 32.5h123v57h-123zM17.681 32.5h26v57h-26zM18.5 16.5h156v10h-156z"/><path stroke="#0B3A7E" fill="#6097DF" d="M72.681 65.5h74v17h-74z"/><circle stroke="#063880" stroke-width="2" fill="#9AC0EE" cx="97.319" cy="111.5" r="7.5"/></g></svg>
