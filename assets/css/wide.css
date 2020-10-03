@@ -211,9 +211,13 @@ header {
     display: flex;
     justify-content: center;
     margin: 1.5rem 2rem 0;
+    width: 84%;
+    max-width: 1400px;
 }
 .illustration-image {
-    width: 85%;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 .scroll {
     align-items: center;

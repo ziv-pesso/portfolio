@@ -210,9 +210,11 @@ header {
     display: block;
 }
 .illustration {
-    margin: 0.75rem 0.75rem 0.25rem;
+    margin: 0.75rem 1.75rem 0.25rem;
 }
 .illustration-image {
+    object-fit: contain;
+    height: 100%;
     width: 100%;
 }
 .scroll {
