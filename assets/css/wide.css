@@ -264,10 +264,17 @@ header {
 .skill-icon {
     align-self: center;
     margin-bottom: 1rem;
-}
-.skill-image {
     height: 140px;
     width: 140px;
+}
+.skill-image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.skill-title {
+    font-size: 1.25rem;
+    text-transform: none;
 }
 .skill-text {
     padding: 1rem 0;
