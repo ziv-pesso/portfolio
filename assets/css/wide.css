@@ -15,9 +15,9 @@ body {
     padding: 2rem 8.25rem;
 }
 .width-blocker {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1450px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1450px !important;
 }
 .width-blocker-hungrybabies {
     margin-left: auto;
@@ -221,8 +221,10 @@ header {
 /********************************************
  ABOUT
 ********************************************/
-.about-me {
+.bg-lightblue {
     background-color: #EBF6FC;
+}
+.about-me {
     display: flex;
     justify-content: center;
 }
@@ -380,6 +382,11 @@ figcaption {
     height: 32rem;
     position: relative;
     width: 100%;
+}
+.responsive-carousel {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1450px !important;
 }
 .slick-dotted.slick-slider {
     margin-bottom: 0;
