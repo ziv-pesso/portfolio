@@ -442,6 +442,10 @@ figcaption {
     position: relative;
     width: 100%;
 }
+.testimonial-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .slick-dotted.slick-slider {
     margin-bottom: 0;
 }

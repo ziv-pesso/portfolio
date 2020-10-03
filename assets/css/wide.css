@@ -58,7 +58,7 @@ h3 {
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
-h4 {
+h4, .testimonial-name {
     color: #4a90e2;
     font-size: 1.25rem;
     font-weight: bold;
@@ -68,7 +68,7 @@ h5 {
     font-weight: bold;
 }
 h6 { 
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 hr {
     border: none;

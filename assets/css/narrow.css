@@ -416,6 +416,11 @@ figcaption {
     height: 32.5rem;
 }
 
+.testimonial-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .quote-header {
     display: flex;
     flex-direction: column;
@@ -437,6 +442,7 @@ figcaption {
 .job-title {
     color: #57585850;
     font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 1rem;
     font-weight: 600;
 }
 .fa-angle-left, 
