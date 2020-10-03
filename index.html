@@ -455,8 +455,16 @@
 
     <!-- CONTACT -->
     <section id="contact">
-      <img src="assets/backgrounds/contact_banner.png" alt="Contact Banner" class="illustration-contact contact-desktop">
-      <img src="assets/backgrounds/contact_banner_mobile.png" alt="Contact Banner" class="illustration-contact contact-mobile">
+      <picture class="illustration-contact contact-desktop">
+        <source srcSet="assets/backgrounds/contact_banner.webp" type="image/webp" />
+        <source srcSet="assets/backgrounds/contact_banner.png" type="image/png" />
+        <img src="assets/backgrounds/contact_banner.png" alt="Contact Banner" />
+      </picture>
+      <picture class="illustration-contact contact-mobile">
+        <source srcSet="assets/backgrounds/contact_banner_mobile.webp" type="image/webp" />
+        <source srcSet="assets/backgrounds/contact_banner_mobile.png" type="image/png" />
+        <img src="assets/backgrounds/contact_banner_mobile.png" alt="Contact Banner" />
+      </picture>
       <div class="contact">
         <h2 class="contact-header">Contact</h2>
         <p class="contact-text">

@@ -480,6 +480,13 @@ figcaption {
 .illustration-contact {
     width: 100%;
 }
+
+.illustration-contact img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
 .contact-header {
     font-size: 3.5rem;
     line-height: 3.5rem;
