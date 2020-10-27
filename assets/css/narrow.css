@@ -250,6 +250,16 @@ header {
     font-size: 1.25rem;
     min-width: 6rem;
     padding: 0.5rem 1rem;
+
+    background-image: linear-gradient(180deg, #ff755a, #ff595a);
+    box-shadow: 0 7px 6px -1px #0e2d9222;
+    color: #ffffff;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+.cv-btn:hover {
+    color: #ffffff;
+    transform: translate(-0.2rem, -0.2rem);
 }
 .skill {
     display: flex;
